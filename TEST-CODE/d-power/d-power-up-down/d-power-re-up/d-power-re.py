@@ -136,14 +136,14 @@ def data_iftype(type):
     "锅具":"187,231,233",
     "厨房配件":"187,231,234",
     "刀具":"187,231,235",
-    "置物架":"187,231,236",
+    "厨房置物架":"187,231,236",
     "果盘":"187,231,246",
     "碗碟":"187,231,331",
     "马桶清洁":"187,379,380",
     "浴巾":"187,379,381",
     "防滑垫":"187,379,382",
     "拖鞋":"187,379,383",
-    "置物架":"187,379,450",
+    "浴室置物架":"187,379,450",
     "抱枕靠垫":"187,239,240",
     "地毯地垫":"187,239,241",
     "收纳用品":"187,239,247",
@@ -224,6 +224,7 @@ def data_iftype(type):
     "化妆棉":"318,421,425",
     "棉签":"318,421,426",
     "洗脸巾":"318,421,427",
+    "化妆镜": "318,421,454",
     "铲子":"323,428,429",
     "锄头":"323,428,430",
     "喷壶/喷头":"323,428,431",
@@ -249,7 +250,7 @@ def data_iftype(type):
     dt = str(spkey[0])+","+str(spkey[0])+","+str(spkey[1])+"," + \
         str(spkey[0])+","+str(spkey[1])+","+str(spkey[2])+","
     return dt
-def data_iftext(text,name,mqr,moble,size,color,quantity,packaging,whys,weight):
+def data_iftext(text,name,mqr,moble,size,color,quantity,packaging,whys,weight,img):
     bok=f'<p>Product Name:{(name)}</p>'
     text1=np.str_(text)
     if text1=='nan':
@@ -277,7 +278,10 @@ def data_iftext(text,name,mqr,moble,size,color,quantity,packaging,whys,weight):
         if whys != "":
             b = f'<p>Related configurations</p><p>{(whys)}</p>'
             bok = bok + b
-
+        if img !="":
+            for imgss in img.split(","):
+                b=f'<p><img src="https://tgsc.qifudaren.net/{imgss}"></p>'
+                bok = bok + b
         return (bok + '<p><br/></p>')
     else:
         return text1
@@ -307,7 +311,8 @@ def data_code():
     text=(pd.read_excel(init_fille()[0], usecols=[20]).values)
     sku_l_m=(pd.read_excel(init_fille()[0], usecols=[21]).values)
     sku_price = (pd.read_excel(init_fille()[0], usecols=[22]).values)
-    # sku_if = (pd.read_excel(init_fille()[0], usecols=[23]).values)
+    text_img = (pd.read_excel(init_fille()[0], usecols=[23]).values)
+    # print(supplier)
     # # 处理表格数据
     # print(data_iftype(type[0][0]))
     len_te = len(supplier)
@@ -337,7 +342,7 @@ def data_code():
             # "Packaging": data_if(Packaging[k][0]),
             # "moq": data_if(moq[k][0]),
             # "whys": data_if(whys[k][0]),#备注
-            "text":data_iftext(weight=data_if(weight[k][0]),whys=data_if(whys[k][0]),color=data_if(color[k][0]),packaging=data_if(Packaging[k][0]),size=data_if(size[k][0]),quantity=data_if(quantity[k][0]),text=text[k][0],moble=data_if(moble[k][0]),name=(title[k][0]),mqr=data_if(mqr[k][0])),#文本
+            "text":data_iftext(img=data_if(text_img[k][0]),weight=data_if(weight[k][0]),whys=data_if(whys[k][0]),color=data_if(color[k][0]),packaging=data_if(Packaging[k][0]),size=data_if(size[k][0]),quantity=data_if(quantity[k][0]),text=text[k][0],moble=data_if(moble[k][0]),name=(title[k][0]),mqr=data_if(mqr[k][0])),#文本
             "sku_price":data_if(sku_price[k][0]),#多价格
             # "sku_if":data_if(sku_if[k][0]),#判断分类
         }
@@ -669,7 +674,7 @@ def d_power_up(po):
     }
     url = "https://tgsc.qifudaren.net/uLHdDeVJXx.php/shopro/goods/goods/add"
     cookies = {
-        "PHPSESSID": "bls6gug0o3lg3ktfm7vom6q8nn",
+        "PHPSESSID": "6ml8u0hcgfd12nas3e318v03bl",
         "think_var": "zh-cn"
     }
     # dpower_re=requests.post(url=url,headers=headers,cookies=cookies,data=sku_L)
