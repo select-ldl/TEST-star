@@ -13,6 +13,7 @@ def init_fille():
                 xml_files.append(xml_file)
     return xml_files
 def ok_json():
+    #获取json数据
     abc=[]
     for i in init_fille():
         with open('%s' % i, 'r', encoding='utf8') as fp:
@@ -24,24 +25,30 @@ def ok_json():
             fp.close()
     return abc
 def panck():
+    #用json进行统计
     data=ok_json()
-    # jjj = "https://tgsc.qifudaren.net"
-    jjj=""
+
     abc={}
     for i in data:
         for m in i["rows"]:
-            jb = {str(m["id"]): jjj + m["url"]}
-            # jb = {str(m["filename"]).replace("." + str(m["imagetype"]), ""): jjj + m["url"]}
+            # jjj = "https://tgsc.qifudaren.net"
+            jjj = ""
+            #获得id与值进行匹配
+            # jb = {str(m["id"]): jjj + m["url"]}
+            #获得名称与值进行匹配
+            jb = {str(m["filename"]).replace("." + str(m["imagetype"]), ""): jjj + m["url"]}
+            # print(jb)
             abc.update(jb)
     return abc
 def data_if(text):
-
+    #判断是否为nan值并将值进行转换
     text1=np.str_(text)
     if text1=='nan':
         return ""
     else:
         return (str(text1))
 def ok_panck():
+    #处理数据
     avc=panck()
     """读文件"""
     xml_files = []
@@ -57,21 +64,20 @@ def ok_panck():
     with open('%s.txt'%xml_files[0], 'w+', encoding='utf8') as f1:
         f1.write("imgs_files\n")
         for img in imgs:
-            for img in imgs:
-                try:
-                    # print(avc[data_if(8390)])
-                    bc_id = bc_id + 1
-                    print(bc_id, avc[data_if(img[0])])
-                    f1.write(avc[data_if(img[0])])
-                    f1.write("\n")
-                except KeyError:
-                    # print(data_if(img[0]))
-                    f1.write("0\n")
-                    kkkkk.append(data_if(img[0]))
-            f1.close()
+            try:
+                # print(avc[data_if(8390)])
+                bc_id = bc_id + 1
+                print(bc_id, avc[data_if(img[0])])
+                f1.write(avc[data_if(img[0])])
+                f1.write("\n")
+            except KeyError:
+                # print(data_if(img[0]))
+                f1.write("0\n")
+                kkkkk.append(data_if(img[0]))
+        f1.close()
+
         print(kkkkk)
 if __name__ == '__main__':
-
     # avc=panck()
     # print(avc[0]["8309"])
     ok_panck()

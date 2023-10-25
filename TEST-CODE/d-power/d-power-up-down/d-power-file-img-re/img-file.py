@@ -21,6 +21,6 @@ def file_img(name):
                 shutil.move(os.path.join(source_folder, filename), os.path.join(target_folder, filename))
                 print(name)
 if __name__ == '__main__':
-    name=['75696', '73302', '76396', '72916', '73722', '72480', '73586', '73395', '73401']
+    name=[]
     for i in name:
         file_img(i)

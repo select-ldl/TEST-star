@@ -18,8 +18,6 @@ def init_fille():
                 xml_files.append(xml_file)
     return xml_files
 
-
-
 # def file_w():
 #     with open('%s.txt'%init_fille()[0][:].split(".")[0][-6:], 'w+', encoding='utf8') as f1:
 #         try:
@@ -33,6 +31,7 @@ def init_fille():
 # print(init_fille()[0][:].split(".")[0][-6:])
 #
 def okpp(data):
+    #判断是否为空值
     # star=star
     text = np.str_(data)
     if text=='nan':
@@ -46,12 +45,14 @@ def okpp(data):
     # return star
     return data_text
 def if_for(data):
+    #将数据进行累加
     pack=[]
     for i in range(len(data)):
         if data[i] not in pack:
             pack.append(data[i])
     return pack
 def xxxx():
+    #处理数据
     workbook=openpyxl.load_workbook(init_fille()[0])
     sheet = workbook['Sheet1']  # 修改为你想要处理的表单名称
     # wb = openpyxl.load_workbook(init_fille()[0])
@@ -60,7 +61,7 @@ def xxxx():
     data_name=[]
     # mkkkie = wb.active
     # init_fille()[0][:].split(".")[0][-6:]
-    with open('%s1.txt' %init_fille()[0][:].split(".")[0][-5:], 'w+', encoding='utf8') as f1:
+    with open('%s.txt' %init_fille()[0], 'w+', encoding='utf8') as f1:
         m1=""
         m2=""
         m3=""
@@ -155,7 +156,6 @@ def xxxx():
             m2=m2+star2+"\n"
             m3=m3+star3+"\n"
             m4=m4+star4+"\n"
-
             data_kk.append([star1,star2,star3,star4,prices])
             data_name.append(abcd)
             try:

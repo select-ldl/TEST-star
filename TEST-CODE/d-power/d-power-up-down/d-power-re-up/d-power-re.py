@@ -247,10 +247,12 @@ def data_iftype(type):
 
     key = code[type]
     spkey = key.split(",")
+    #"""处理为对应的类型编码"""
     dt = str(spkey[0])+","+str(spkey[0])+","+str(spkey[1])+"," + \
         str(spkey[0])+","+str(spkey[1])+","+str(spkey[2])+","
     return dt
 def data_iftext(text,name,mqr,moble,size,color,quantity,packaging,whys,weight,img):
+    #获取文件的相关信息，编写为商品详情处
     bok=f'<p>Product Name:{(name)}</p>'
     text1=np.str_(text)
     if text1=='nan':
@@ -287,6 +289,7 @@ def data_iftext(text,name,mqr,moble,size,color,quantity,packaging,whys,weight,im
         return text1
 
 def data_code():
+    #获取表格数据
     supplier = (pd.read_excel(init_fille()[0], usecols=[0]).values)
     title = (pd.read_excel(init_fille()[0], usecols=[1]).values)
     subtitle = (pd.read_excel(init_fille()[0], usecols=[2]).values)
@@ -319,6 +322,7 @@ def data_code():
     das=[]
     for k in range(len_te):
         # print(data_if(title[k][0])+data_if(moq[k][0]))
+        #将表格处理为字典格式
         payt = {
             "supplier": (supplier[k][0]),
             "title": data_if(title[k][0])+"\tMOQ "+data_if(moq[k][0]),
@@ -349,6 +353,7 @@ def data_code():
         das.append(payt)
     return das
 def up_data_L(text,type,img,imgs,price,price1,price2,inventory,pop,volume,supplier,sort,subtitle,title,titleen,titletw,weight):
+    """单规格信息的组成"""
     data = {
         "row[category_ids]":type,#商品类型69,179,183,187,186,194,198,248,316
         "row[content]":text,#"<p>图文详情<br/></p>"
@@ -393,12 +398,14 @@ def up_data_L(text,type,img,imgs,price,price1,price2,inventory,pop,volume,suppli
     data["row[cost_price]"]=""
     return data
 def list_spilst(data):
+    """#获取多规格价格位置并按逗号进行分隔"""
     if data=="":
         return ""
     else:
         return data.split(",")
 
 def list_children(color,size,mqr,modble):
+    """处理获取的多规格信息，将多规格按id进行排列，返回相关的多规格表，还有id与值"""
     data=[]
     modble=list_spilst(modble)
     color = list_spilst(color)
@@ -472,6 +479,7 @@ def list_children(color,size,mqr,modble):
     return json.dumps(data),sku_price
 
 def sku_len(color,size,mqr,model):
+    """将获取到的id与值进行所有结果值的集合"""
     # arrays={}
     abcd=[]
     if model!=[]:
@@ -490,7 +498,7 @@ def sku_len(color,size,mqr,model):
         abcd.append(color)
         # a = {"cole,"+str(len(color)):color}
         # arrays.update(a)
-    conbit=list(itertools.product(*abcd))
+    conbit=list(itertools.product(*abcd))#获取所有集合
 
     num_all=[]
     for con in conbit:
@@ -507,10 +515,10 @@ def sku_len(color,size,mqr,model):
         a=[a_id,b_name]
         num_all.append(a)
     # print(num_id,num_name)
-
     return num_all
 
 def sku_json(t_id,price,up_down,id_text,id_ids):
+    #多规格部分的值，关于每个多规格商品的单个选择项目
     data_m = {"id": 0,
               "temp_id": t_id,
               "goods_sku_ids": "",
@@ -529,6 +537,7 @@ def sku_json(t_id,price,up_down,id_text,id_ids):
               "goods_sku_temp_ids": id_ids}
     return data_m
 def sku_price(data):
+    """将表格中的多规格价格单元格，按行分开，前面为多规格信息，后面为多规格价格"""
     if data=="":
         return ""
     else:
@@ -539,6 +548,7 @@ def sku_price(data):
         return akd
 
 def listgoods_sku(color,size,mqr,model,price,price_sku):
+    #进行判断是否需要用多规格价格部分
     data_m=list_children(color=color,size=size,mqr=mqr,modble=model)[0]
     aaaa=list_children(color=color,size=size,mqr=mqr,modble=model)[1]
     # print(len(aaaa))
@@ -557,11 +567,13 @@ def listgoods_sku(color,size,mqr,model,price,price_sku):
         if aaaa[anga]=="color":
             sku_color.append(anga)
 
-
+    # 获取所有值
     skulen = sku_len(color=sku_color, size=sku_size, mqr=sku_mqr, model=sku_model)
     # print(len(skulen),skulen)
+    # 将表格数据分开后的结果
     price_sku=sku_price(price_sku)
-    if price_sku == "":
+
+    if price_sku == "":#将多规格价格进行判断为空就自动排列
         for slu in range(len(skulen)):
             sk1=sku_json(t_id=slu+1,up_down="up",price=price,id_text=skulen[slu][1],id_ids=skulen[slu][0])
             sku_app.append(sk1)
@@ -575,7 +587,7 @@ def listgoods_sku(color,size,mqr,model,price,price_sku):
             avv.append(ais[:-1])
             # print(avv)
             for poi in skulen:
-                if ais[:-1]==poi[1]:
+                if ais[:-1]==poi[1]:#若不为空，将拿取价格部分的值进行上架，将前4个值进行比较是否一样
                     sk1 = sku_json(t_id=idsd, up_down="up", price=round(float(ais[-1]),2), id_text=poi[1],
                                    id_ids=poi[0])
                     sku_app.append(sk1)
@@ -601,6 +613,7 @@ def listgoods_sku(color,size,mqr,model,price,price_sku):
 
 
 def up_data_M(mqr,moble,sku_price,text,type,img,size,color,imgs,price,price1,price2,inventory,pop,volume,supplier,sort,subtitle,title,titleen,titletw,weight,):
+    #多规格情况的json
     data = {
         "row[category_ids]":type,#商品类型69,179,183,187,186,194,198,248,316
         "row[content]":text,#"<p>图文详情<br/></p>"
@@ -645,6 +658,7 @@ def up_data_M(mqr,moble,sku_price,text,type,img,size,color,imgs,price,price1,pri
     data["row[cost_price]"]=""
     return data
 def test_index():
+    """将前面数据进行合并处理，将表格数据的值赋值到对应def里"""
     datas=data_code()
     pat_all=[]
     for i in range(len(datas)):
@@ -667,6 +681,7 @@ def test_index():
     return pat_all
 
 def d_power_up(po):
+    #进行接口传参
     headers={
         "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0",
         "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
@@ -682,10 +697,11 @@ def d_power_up(po):
     dpower_re=requests.post(url=url,headers=headers,cookies=cookies,data=po)
     print(dpower_re.json)
 if __name__ == '__main__':
+    #将整个数据都获取后,用循环进行赋值传参，后续可以在这边使用堆栈
     a=test_index()
     # threads = []
     for i in range(len(a)):
-        print(i+1, a[i])
+        print(i+1,"\n", a[i])
         d_power_up(a[i])
         time.sleep(random.randint(1,5))
         # t = threading.Thread(target=d_power_up, args=(i,))
