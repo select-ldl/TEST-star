@@ -39,7 +39,9 @@ def pppp(am):
     """
     km=[]
     for i in am:
-        kss=i.split(",")
+        kss = []
+        for m in i.split(","):
+            kss.append(m.strip())
         km.append(kss)
     return km
 def if_for(data):
@@ -94,22 +96,22 @@ def kkkkkkkk():
             pkdat.append(a1)
             lnes+=len(a1)
             for i in ccc_if(a1):
-                star1 = star1 + i + ","
+                star1 = star1 + i.strip() + ","
         if a2 != ['None']:
             lnes += len(a2)
             pkdat.append(a2)
             for i in ccc_if(a2):
-                star2 = star2 + i + ","
+                star2 = star2 + i.strip() + ","
         if a3m != ['None']:
             lnes += len(a3m)
             pkdat.append(a3m)
             for i in ccc_if(a3m):
-                star3 = star3 + i + ","
+                star3 = star3 + i.strip() + ","
         if a4m != ['None']:
             lnes+=len(a4m)
             pkdat.append(a4m)
             for i in ccc_if(a4m):
-                star4 = star4 + i + ","
+                star4 = star4 + i.strip() + ","
         if a5 != ['None']:
             lnes+=len(a5)
             pkdat.append(a5)

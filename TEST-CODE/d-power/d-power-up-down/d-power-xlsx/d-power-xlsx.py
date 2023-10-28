@@ -38,7 +38,9 @@ def okpp(data):
         text= ""
     else:
        text=(str(data))
-    data_text=text.split("\n")
+    data_text = []
+    for i in text.split("\n"):
+        data_text.append(i.strip())
     # if data_text!=[]:
     #     for i in data_text:
     #         star=star+i+","
@@ -93,36 +95,36 @@ def xxxx():
                 for i in if_for(a1):
                     stars=stars + i+","
                     if i==a1[-1]:
-                        star1 = star1 + i
+                        star1 = star1 + i.strip()
                     else:
-                        star1=star1+i+","
+                        star1=star1+i.strip()+","
             if a2!=['None']:
                 pcl.append(a2)
                 lens = lens + len(a2)
                 for i in if_for(a2):
                     stars = stars + i + ","
                     if i == a2[-1]:
-                        star2 = star2 + i
+                        star2 = star2 + i.strip()
                     else:
-                        star2 = star2 + i + ","
+                        star2 = star2 + i.strip() + ","
             if a3!=['None']:
                 pcl.append(a3)
                 lens = lens + len(a3)
                 for i in if_for(a3):
                     stars = stars + i + ","
                     if i == a3[-1]:
-                        star3 = star3 + i
+                        star3 = star3 + i.strip()
                     else:
-                        star3 = star3 + i + ","
+                        star3 = star3 + i.strip() + ","
             if a4!=['None']:
                 pcl.append(a4)
                 lens = lens + len(a4)
                 for i in if_for(a4):
                     stars = stars + i + ","
                     if i == a4[-1]:
-                        star4 = star4 + i
+                        star4 = star4 + i.strip()
                     else:
-                        star4 = star4 + i + ","
+                        star4 = star4 + i.strip() + ","
             if a5!=['None']:
                 lens=lens+len(a5)
                 pcl.append(a5)
