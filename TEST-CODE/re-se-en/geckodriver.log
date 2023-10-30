@@ -1,0 +1,329 @@
+1698682138018	geckodriver	INFO	Listening on 127.0.0.1:61000
+1698682141083	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--remote-debugging-port" "61001" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileM59OhE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682141421	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682141595	Marionette	INFO	Listening on port 61012
+WebDriver BiDi listening on ws://127.0.0.1:61001
+Read port: 61012
+1698682141790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61001/devtools/browser/5d42db6a-7530-47dc-828a-006b3d71b93b
+1698682149968	Marionette	INFO	Stopped listening on port 61012
+JavaScript warning: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_5cb7a7d.js, line 82: Script terminated by timeout at:
+i@https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_5cb7a7d.js:82:95
+r@https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_5cb7a7d.js:81:317
+
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Dynamically enable window occlusion 1
+1698682339611	geckodriver	INFO	Listening on 127.0.0.1:52576
+1698682342645	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--remote-debugging-port" "52577" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileUbpvbB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682342983	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682343170	Marionette	INFO	Listening on port 52589
+WebDriver BiDi listening on ws://127.0.0.1:52577
+Read port: 52589
+1698682343338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52577/devtools/browser/3701b89c-fea4-4f93-a2ed-ee19180e6d66
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1613.7e78c1164311d8d2.js, line 1: Script terminated by timeout at:
+o@https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1613.7e78c1164311d8d2.js:1:250796
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1698682368157	Marionette	INFO	Stopped listening on port 52589
+Dynamically enable window occlusion 1
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+1698682402094	geckodriver	INFO	Listening on 127.0.0.1:57952
+1698682405174	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--remote-debugging-port" "57953" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofilecCjind"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682405491	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682405665	Marionette	INFO	Listening on port 57964
+WebDriver BiDi listening on ws://127.0.0.1:57953
+Read port: 57964
+1698682405844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57953/devtools/browser/5d20a71a-39f6-4fce-abef-83b9fa02129d
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698682435624	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1613.7e78c1164311d8d2.js, line 1: Script terminated by timeout at:
+o@https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1613.7e78c1164311d8d2.js:1:250796
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1698682453474	Marionette	INFO	Stopped listening on port 57964
+Dynamically enable window occlusion 1
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+1698682465049	geckodriver	INFO	Listening on 127.0.0.1:58182
+1698682468103	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--remote-debugging-port" "58183" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofilecyeayd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682468418	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682468589	Marionette	INFO	Listening on port 58194
+WebDriver BiDi listening on ws://127.0.0.1:58183
+Read port: 58194
+1698682468772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58183/devtools/browser/3bb7fe1c-e55f-4fe2-bac2-526898397438
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698682476740	Marionette	INFO	Stopped listening on port 58194
+Dynamically enable window occlusion 1
+1698682533246	geckodriver	INFO	Listening on 127.0.0.1:58385
+1698682536285	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--remote-debugging-port" "58386" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileB9DFeo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682536585	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682536761	Marionette	INFO	Listening on port 58397
+WebDriver BiDi listening on ws://127.0.0.1:58386
+Read port: 58397
+1698682536941	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58386/devtools/browser/8464809f-684e-4a1b-b313-4e384db2b610
+1698682542512	geckodriver	INFO	Listening on 127.0.0.1:58436
+1698682545565	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58437" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileySADL1"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682545860	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682545921	Marionette	INFO	Listening on port 58449
+WebDriver BiDi listening on ws://127.0.0.1:58437
+Read port: 58449
+1698682546079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58437/devtools/browser/cccdec0b-b942-4c23-9553-e5e3b551ca51
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698682576863	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+" "--remote-debugging-port" "58580" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileSlf7Ma"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682559382	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682559554	Marionette	INFO	Listening on port 58622
+WebDriver BiDi listening on ws://127.0.0.1:58580
+Read port: 58622
+1698682559738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58580/devtools/browser/f751bdda-3754-4020-83d3-5b5f6205aa83
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/5447.3c33639003346358.js, line 1: Script terminated by timeout at:
+s@https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/5447.3c33639003346358.js:1:332080
+@https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/5447.3c33639003346358.js:1:361546
+g@https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/5447.3c33639003346358.js:1:368062
+@https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/5447.3c33639003346358.js:1:365179
+@https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/5447.3c33639003346358.js:1:364102
+V@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-core@f77303f.min.js:1:17633
+n.prototype.realSendData/I</<@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@f77303f.min.js:1:15291
+e@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-core@f77303f.min.js:1:24118
+n.prototype.realSendData/I<@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@f77303f.min.js:1:15260
+n.prototype.realSendData@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@f77303f.min.js:1:15234
+n.prototype.sendData/I</<@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@f77303f.min.js:1:14859
+i/s/</<@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@f77303f.min.js:1:2103
+i/s/<@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@f77303f.min.js:1:2208
+a/<@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@f77303f.min.js:1:1124
+a@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@f77303f.min.js:1:869
+n.prototype.sendData@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@f77303f.min.js:1:14491
+n.prototype.logDirectly@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@f77303f.min.js:1:11280
+e.prototype.realLogEvent/q<@https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-core@f77303f.min.js:1:19963
+
+1698682569348	Marionette	INFO	Stopped listening on port 58622
+Dynamically enable window occlusion 1
+1698682618382	geckodriver	INFO	Listening on 127.0.0.1:55782
+1698682621469	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55783" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileTP7n2F"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682621767	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682621826	Marionette	INFO	Listening on port 55793
+WebDriver BiDi listening on ws://127.0.0.1:55783
+Read port: 55793
+1698682621982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55783/devtools/browser/d76bf736-afa4-43d8-a26a-45c7017a263a
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698682652479	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698682676900	geckodriver	INFO	Listening on 127.0.0.1:55992
+1698682679934	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofile3hzdiP"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682680236	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682680298	Marionette	INFO	Listening on port 56004
+WebDriver BiDi listening on ws://127.0.0.1:55993
+Read port: 56004
+1698682680474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55993/devtools/browser/767283c4-600d-4e51-ab99-8269c9a8b5d5
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/default/live/index.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698682710256	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+" "--headless" "--remote-debugging-port" "56164" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileU8rQxH"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682697783	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682697846	Marionette	INFO	Listening on port 56190
+WebDriver BiDi listening on ws://127.0.0.1:56164
+Read port: 56190
+1698682698017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56164/devtools/browser/3f364be1-fb57-47ed-992c-1f5623007f0e
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698682728259	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698682739891	geckodriver	INFO	Listening on 127.0.0.1:56389
+1698682742950	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "56390" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileIKwz1c"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682743243	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682743303	Marionette	INFO	Listening on port 56402
+WebDriver BiDi listening on ws://127.0.0.1:56390
+Read port: 56402
+1698682743473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56390/devtools/browser/8cf6ff02-b2a4-4bbf-93c6-d79ff5034ece
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698682751142	Marionette	INFO	Stopped listening on port 56402
+Dynamically enable window occlusion 1
+1698682818944	geckodriver	INFO	Listening on 127.0.0.1:52430
+1698682822014	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "52431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileL5O96v"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698682822326	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698682822387	Marionette	INFO	Listening on port 52446
+WebDriver BiDi listening on ws://127.0.0.1:52431
+Read port: 52446
+1698682822548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:52431/devtools/browser/6c1110a6-c01b-4165-b95a-cd8461cdeba8
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/d823bfed352f78fe6cb93a312329de1e7d841d9b.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698682829946	Marionette	INFO	Stopped listening on port 52446
+Dynamically enable window occlusion 1
+1698683168664	geckodriver	INFO	Listening on 127.0.0.1:59596
+1698683171726	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59597" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofilel1KLUF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698683172040	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698683172100	Marionette	INFO	Listening on port 59610
+WebDriver BiDi listening on ws://127.0.0.1:59597
+Read port: 59610
+1698683172261	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59597/devtools/browser/0086d50d-11e7-4b14-bd36-9424d5d30694
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698683202100	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+" "--headless" "--remote-debugging-port" "59195" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileBqTwSK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698683184713	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698683184782	Marionette	INFO	Listening on port 59275
+WebDriver BiDi listening on ws://127.0.0.1:59195
+Read port: 59275
+1698683184992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59195/devtools/browser/9f1b70ce-1651-4a22-86a3-483b712bedd6
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698683215077	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698683219484	geckodriver	INFO	Listening on 127.0.0.1:59492
+1698683222587	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59493" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileKvpyEZ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698683222930	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698683223008	Marionette	INFO	Listening on port 59509
+WebDriver BiDi listening on ws://127.0.0.1:59493
+Read port: 59509
+1698683223187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59493/devtools/browser/46e25d00-e7b4-4b5d-855c-b9bedfa2cefa
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698683254173	addons.xpi	ERROR	System addon update list erro1698683255564	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59764" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileLZKmT7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698683255856	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698683255918	Marionette	INFO	Listening on port 59779
+WebDriver BiDi listening on ws://127.0.0.1:59764
+Read port: 59779
+1698683256090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59764/devtools/browser/162e86ef-11b0-4864-bd3a-0ebbae6cf8a5
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698683286915	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698683397201	geckodriver	INFO	Listening on 127.0.0.1:63468
+1698683400286	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63469" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofile9Jl2sY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698683400605	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698683400670	Marionette	INFO	Listening on port 63480
+WebDriver BiDi listening on ws://127.0.0.1:63469
+Read port: 63480
+1698683400837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:63469/devtools/browser/72d35395-5942-41d4-8885-db15b43e0d5b
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
