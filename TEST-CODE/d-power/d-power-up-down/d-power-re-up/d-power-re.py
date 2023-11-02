@@ -9,6 +9,7 @@ import requests
 import itertools
 from io import BytesIO
 from PIL import Image
+from tqdm import tqdm
 import sys
 # import threading
 # import openpyxl
@@ -713,7 +714,7 @@ if __name__ == '__main__':
     #将整个数据都获取后,用循环进行赋值传参，后续可以在这边使用堆栈
     a=test_index()
     # threads = []
-    for i in range(len(a)):
+    for i in tqdm(range(len(a))):
         print(i+1,"\n", a[i])
         d_power_up(a[i])
         time.sleep(random.randint(1,5))
