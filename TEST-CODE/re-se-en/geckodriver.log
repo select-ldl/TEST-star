@@ -115,7 +115,8 @@ JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e9145
 JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
 JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
 1698682576863	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-" "--remote-debugging-port" "58580" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileSlf7Ma"
+Exiting due to channel error.
+580" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileSlf7Ma"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 1698682559382	Marionette	INFO	Marionette enabled
@@ -168,7 +169,8 @@ JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e9145
 JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
 JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
 1698682652479	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-1698682676900	geckodriver	INFO	Listening on 127.0.0.1:55992
+Exiting due to channel error.
+Listening on 127.0.0.1:55992
 1698682679934	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofile3hzdiP"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
@@ -186,7 +188,8 @@ JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/default/live/ind
 JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
 JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
 1698682710256	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-" "--headless" "--remote-debugging-port" "56164" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileU8rQxH"
+Exiting due to channel error.
+ing-port" "56164" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileU8rQxH"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -203,7 +206,8 @@ JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e9145
 JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
 JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
 1698682728259	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-1698682739891	geckodriver	INFO	Listening on 127.0.0.1:56389
+Exiting due to channel error.
+Listening on 127.0.0.1:56389
 1698682742950	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "56390" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileIKwz1c"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
@@ -259,7 +263,8 @@ JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e9145
 JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
 JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
 1698683202100	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-" "--headless" "--remote-debugging-port" "59195" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileBqTwSK"
+Exiting due to channel error.
+ing-port" "59195" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileBqTwSK"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -276,8 +281,11 @@ JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e9145
 JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
 JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
 1698683215077	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-1698683219484	geckodriver	INFO	Listening on 127.0.0.1:59492
-1698683222587	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59493" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileKvpyEZ"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+�\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59493" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileKvpyEZ"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -293,7 +301,10 @@ DevTools listening on ws://127.0.0.1:59493/devtools/browser/46e25d00-e7b4-4b5d-8
 JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
 JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
-1698683254173	addons.xpi	ERROR	System addon update list erro1698683255564	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59764" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileLZKmT7"
+1698683254173	addons.xpi	ERROR	System addon update list erro1698683255564	mozrunner::runner	INFO	Running command: "D:\\百度\\fringe\\firefox.exe" "--marionetteExiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+te" "-profile" "C:\\Users\\IHOPEY~1\\AppData\\Local\\Temp\\rust_mozprofileLZKmT7"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -327,3 +338,8 @@ DevTools listening on ws://127.0.0.1:63469/devtools/browser/72d35395-5942-41d4-8
 JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/9c2e91458d9de7c3075ce71a15f96ff581314309.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
 JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1698683431323	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

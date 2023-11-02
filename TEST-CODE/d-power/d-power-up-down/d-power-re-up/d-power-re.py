@@ -7,6 +7,8 @@ import random
 import json
 import requests
 import itertools
+from io import BytesIO
+from PIL import Image
 import sys
 # import threading
 # import openpyxl
@@ -251,6 +253,12 @@ def data_iftype(type):
     dt = str(spkey[0])+","+str(spkey[0])+","+str(spkey[1])+"," + \
         str(spkey[0])+","+str(spkey[1])+","+str(spkey[2])+","
     return dt
+def get_img_hwc(url):
+    """获取img高度"""
+    response = requests.get(url)
+    img = Image.open(BytesIO(response.content))
+    return img.size[0], img.size[1]
+
 def data_iftext(text,name,mqr,moble,size,color,quantity,packaging,whys,weight,img):
     #获取文件的相关信息，编写为商品详情处
     bok=f'<p>Product Name:{(name)}</p>'
@@ -282,7 +290,12 @@ def data_iftext(text,name,mqr,moble,size,color,quantity,packaging,whys,weight,im
             bok = bok + b
         if img !="":
             for imgss in img.split(","):
-                b=f'<p><img src="https://tgsc.qifudaren.net/{imgss}"></p>'
+                # time.sleep(1.5)
+                # width, height= get_img_hwc(f'https://tgsc.qifudaren.net/{imgss}')
+                # kkkk=int(height*(750/width))
+                # print("高度：",kkkk)
+                # b=f'<p>< img src="https://tgsc.qifudaren.net{imgss}" width="750" height={kkkk}></p ></p >'
+                b=f'<p><img src="https://tgsc.qifudaren.net/{imgss} width="750"></p>'
                 bok = bok + b
         return (bok + '<p><br/></p>')
     else:
