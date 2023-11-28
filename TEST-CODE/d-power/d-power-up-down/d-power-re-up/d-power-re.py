@@ -300,7 +300,9 @@ def data_iftext(text,name,mqr,moble,size,color,quantity,packaging,whys,weight,im
                 bok = bok + b
         return (bok + '<p><br/></p>')
     else:
-        return text1
+        for i in text1:
+            bok+=f'<p>{(i)}</p>'
+        return (bok + '<p><br/></p>')
 
 def data_code():
     #获取表格数据
